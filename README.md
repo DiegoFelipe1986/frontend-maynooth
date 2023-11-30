@@ -31,5 +31,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `npm run eject`
 
+Before running the application, download the backend from https://github.com/DiegoFelipe1986/backend-maynooth and follow the instructions in its README for setup.
+
 **Note:
 The .env file containing sensitive information will be sent to your email separately. Make sure to securely handle and configure this file for your application.**
