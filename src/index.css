@@ -1,3 +1,9 @@
+:root{
+  --primary: #009739;
+  --secondary: #FF8200;
+  --white: #FFFFF;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +16,24 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.button-primary {
+  background-color: var(--primary);
+  color: azure;
+  border: 1px solid var(--primary);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.button-primary:hover{
+  background-color: var(--secondary);
+  color: azure;
+  border: 1px solid var(--white);
+  border-radius: 7px;
+  padding: 5px;
+}
+
+.white-text{
+  color: azure!important;
 }
